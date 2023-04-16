@@ -5,12 +5,18 @@
     --dark-blue: #0e1d34;
 }
 
+/* ---------------------------------- TAGS GENERICI ---------------------------------- */
 * {
     font-family: 'Poppins', sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+
+footer {
+    background: var(--dark-blue);
+    color: white;
 }
 
 /* .menuMobileWrapper {
@@ -22,6 +28,7 @@ a {
     background-color: var(--dark-blue);
 } */
 
+/* -------------------------- BOTTONE JS SCROLL TOP ------------------------- */
 .scroll-top-button {
     position: fixed;
     bottom: 0;
@@ -30,6 +37,7 @@ a {
     width: 3rem;
 }
 
+/* ---------------------------------- HERO ---------------------------------- */
 #hero {
     background-image: url(./img/hero-bg.png);
     background-position: center;
@@ -42,6 +50,7 @@ a {
     font-weight: 300 !important;
 }
 
+/* ----------------------------- PRIMO SET ICONE ---------------------------- */
 .icona1 {
     color: var(--text-color) !important;
     font-size: 2.5rem;
@@ -53,6 +62,7 @@ a {
     font-weight: 800;
 }
 
+/* ------------------------ ABOUT E SECONDO SET ICONE ----------------------- */
 .youtube-button {
     width: 80px;
     height: 80px;
@@ -62,6 +72,8 @@ a {
     color: #0d42ff !important;
     font-size: 2rem;
 }
+
+/* -------------------------------- H2 H3 H4 -------------------------------- */
 
 .titolino {
     color: var(--dark-blue);
@@ -81,11 +93,7 @@ a {
     font-size: 1.2rem;
 }
 
-footer {
-    background: var(--dark-blue);
-    color: white;
-}
-
+/* --------------------------------- FOOTER --------------------------------- */
 .bordo-social {
     display: flex;
     justify-content: center;
