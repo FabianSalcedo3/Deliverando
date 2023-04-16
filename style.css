@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&family=Merriweather:wght@300&family=Poppins&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --text-color: #001f8c;
+    --dark-blue: #0e1d34;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .menuMobileWrapper {
+    position: absolute;
+    top: 4.7rem;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--dark-blue);
+} */
+
+.scroll-top-button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2rem;
+    width: 3rem;
+}
+
+#hero {
+    background-image: url(./img/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--dark-blue);
+}
+
+#paragrafo {
+    font-weight: 300 !important;
+}
+
+.icona1 {
+    color: var(--text-color) !important;
+    font-size: 2.5rem;
+}
+
+.package a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-weight: 800;
+}
+
+.youtube-button {
+    width: 80px;
+    height: 80px;
+}
+
+.icona2 {
+    color: #0d42ff !important;
+    font-size: 2rem;
+}
+
+.titolino {
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.titolo {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.titolino2 {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+footer {
+    background: var(--dark-blue);
+    color: white;
+}
+
+.bordo-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    cursor: pointer;
+}
