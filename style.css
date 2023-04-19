@@ -19,13 +19,14 @@ footer {
     color: white;
 }
 
-/* .menuMobileWrapper {
-    position: absolute;
+/* #navbarSupportedContent {
+    position: fixed;
     top: 4.7rem;
     left: 0;
     height: 100vh;
     width: 100%;
     background-color: var(--dark-blue);
+    transition: all 100ms ease-in-out;
 } */
 
 /* -------------------------- BOTTONE JS SCROLL TOP ------------------------- */
@@ -74,17 +75,16 @@ footer {
 }
 
 /* -------------------------------- H2 H3 H4 -------------------------------- */
+.titolo {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
 
 .titolino {
     color: var(--dark-blue);
     font-weight: 600;
     font-size: 1.2rem;
-}
-
-.titolo {
-    color: var(--text-color);
-    font-weight: 700;
-    font-size: 2rem;
 }
 
 .titolino2 {

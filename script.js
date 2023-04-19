@@ -7,7 +7,6 @@ window.onscroll = () => {
 
 function navbarColor() {
     if (window.scrollY > 200) {
-        console.log(bottoneScrollTop);
         bottoneScrollTop.classList.add('btn', 'btn-outline-primary', 'scroll-top-button');
         document.body.appendChild(bottoneScrollTop);
     } else {
